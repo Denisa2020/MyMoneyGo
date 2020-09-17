@@ -9,7 +9,7 @@ Usage
 Register as a new user:
     - selected username will be checked against users database and a message will be displayed if the username already exists;
     - password needs to be minimum 8 characters and include at least one uppercase and lowercase letter and one number.
-[Register](/screenshots/Register.png)
+![Register](/screenshots/Register.png?raw=true "Register")
 
 Log in
 
