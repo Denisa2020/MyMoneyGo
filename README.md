@@ -55,6 +55,6 @@ Keeping track of income, expenditures and savings.
 <b>When the user tries to add savings higher than the remaining balance, an error message is displayed</b>
 <img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Savings_over_balance.PNG">
 
-<b>Contributing</b>
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+<h3>Contributing</h3>
+<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</p>
 
