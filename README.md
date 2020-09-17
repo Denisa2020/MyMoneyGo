@@ -1,7 +1,7 @@
-Sample Money Balance Application: MyMoneyGo
+<h2>Sample Money Balance Application: MyMoneyGo</h2>
 MyMoneyGo is a simple app created using Python, HTML, CSS, Bootstrap and SQL.
 
-Purpose
+<h3>Purpose</h3>
 Keeping track of income, expenditures and savings.
 
 Usage
@@ -9,7 +9,7 @@ Usage
 Register as a new user:
     - selected username will be checked against users database and a message will be displayed if the username already exists;
     - password needs to be minimum 8 characters and include at least one uppercase and lowercase letter and one number.
-![Register](/screenshots/Register.png?raw=true "Register")
+[Register](https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Register.PNG)
 
 Log in
 
