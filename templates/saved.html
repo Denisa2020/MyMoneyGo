@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+<p>
+    Well done! You added <b>{{currency}} {{amount}}</b> to your savings!
+</p>
+<p>
+    Right now you have a total of <b>{{currency}} {{total_savings}}</b> saved.
+</p>
+
+{% endblock %}

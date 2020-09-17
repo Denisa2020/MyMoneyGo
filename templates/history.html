@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Currency</th>
+                <th>Amount</th>
+                <th>Transacted</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for holding in holdings %}
+            <tr>
+                <td>{{holding["type"]}}</td>
+                <td>{{holding["category"]}}</td>
+                <td id="category">{{holding["currency"]}}</td>
+                <td id="category">{{holding["amount"]}}</td>
+                <td>{{holding["transacted"]}}</td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+{% endblock %}

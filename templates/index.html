@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    MyMoneyGo
+{% endblock %}
+
+{% block main %}
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <div class="alert alert-primary" role="alert">Balance:<br>{{currency}} {{currentBalance}}<br><a href="history">View History</a></div>
+                </th>
+                <th>
+                    <div class="alert alert-danger" role="alert">Expenditures:<br>{{currency}} {{expenditure}}<br><a href="expenditure">Add expenditure</a></div>
+                </th>
+                <th>
+                    <div class="alert alert-success" role="alert">Savings:<br>{{currency}} {{savings}}<br><a href="savings">Add savings</a></div>
+                </th>
+                <th>
+                    <div class="alert alert-warning" role="alert">Income:<br>{{currency}} {{income}}<br><a href="income">Add income</a></div>
+                </th>
+            </tr>
+        </thead>
+    </table>
+
+    <div>
+        <h1>Summary</h1>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Currency</th>
+                <th>Amount</th>
+                <th>Transacted</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if holdings==None %}
+                <p>No summary to display.</p>
+            {% else %}
+                {% for holding in holdings %}
+                <tr>
+                    <td>{{holding["category"]}}</td>
+                    <td>{{holding["currency"]}}</td>
+                    <td>{{holding["amount"]}}</td>
+                    <td>{{holding["transacted"]}}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+            {% endif %}
+                <td colspan="2"><b>BALANCE</b></td>
+                <td><b>{{currency}} {{currentBalance}}</b></td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}

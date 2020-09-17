@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Expenditure
+{% endblock %}
+
+{% block main %}
+    <form action="/expenditure" method="post">
+        <div class="form-group">
+            <label for="category">Category:</label>
+        <select id="category" name="category" class="form-control">
+            <option value="category" selected disabled>Category</option>
+            <option value="bills&utilities">Bills&Utilities</option>
+            <option value="shopping">Shopping</option>
+            <option value="food&drinks">Food&Drinks</option>
+            <option value="other">Other</option>
+        </select>
+        </div>
+        <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input autocomplete="off" class="form-control" min="1" name="amount" placeholder="amount" type="number">
+        </div>
+        <div class="form-group">
+            <label for="currency">Currency:</label>
+        <select id="currency" name="currency" class="form-control">
+            <option value="currency" selected disabled>Currency</option>
+            <option value="eur">EUR</option>
+            <option value="usd">USD</option>
+            <option value="gbp">GBP</option>
+        </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Add expenditure</button>
+
+{% endblock %}
