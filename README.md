@@ -4,57 +4,57 @@ MyMoneyGo is a simple app created using Python, HTML, CSS, Bootstrap and SQL.
 <h3>Purpose</h3>
 Keeping track of income, expenditures and savings.
 
-Usage
+<h3>Usage</h3>
 
-Register as a new user:
-    - selected username will be checked against users database and a message will be displayed if the username already exists;
-    - password needs to be minimum 8 characters and include at least one uppercase and lowercase letter and one number.
-[Register](https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Register.PNG)
+<b>Register as a new user:</b>
+    <p>- selected username will be checked against users database and a message will be displayed if the username already exists;</p>
+    <p>- password needs to be minimum 8 characters and include at least one uppercase and lowercase letter and one number.</p>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Register.PNG">
 
-Log in
+<b>Log in</b>
 
-Add income
-![Add income](/screenshots/Add_income.png?raw=true "Add income")
+<b>Add income</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Add_income.PNG">
 
-Income added
-![Income_added](/screenshots/Income_added.png?raw=true "Income_added")
+<b>Income added</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Income_added.PNG">
 
-Add expenditure
-![Add expenditure](/screenshots/Add_expenditure.png?raw=true "Add expenditure")
+<b>Add expenditure</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Add_expenditure.PNG">
 
-Expenditure added
-![Expenditure_added](/screenshots/Expenditure_added.png?raw=true "Expenditure_added")
+<b>Expenditure added</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Expenditure_added.PNG">
 
-Add savings
-![Add savings](/screenshots/Add_savings.png?raw=true "Add savings")
+<b>Add savings</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Add_savings.PNG">
 
-Savings added
-![Savings_added](/screenshots/Savings_added.png?raw=true "Savings_added")
+<b>Savings added</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Savings%20added.PNG">
 
-Index page (new user):
-    - shows 0 balance, 0 savings, 0 expenditure, 0 income
-    - summary shows no transactions
-    - there are links to add savings, expenditure, income, view history
-![Index new user](/screenshots/Index_new_user.png?raw=true "Index new user")
+<b>Index page (new user):</b>
+    <p>- shows 0 balance, 0 savings, 0 expenditure, 0 income</p>
+    <p>- summary shows no transactions</p>
+    <p>- there are links to add savings, expenditure, income, view history</p>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Index_new_user.PNG">
 
-Index page(existing user with previous transactions:
-    - shows current balance, current savings, current expenditure, current income
-    - summary shows all previous transactions grouped by category
-    - there are links to add savings, expenditure, income, view history
-![Index](/screenshots/Index.png?raw=true "Index")
+<b>Index page(existing user with previous transactions:</b>
+    <p>- shows current balance, current savings, current expenditure, current income</p>
+    <p>- summary shows all previous transactions grouped by category</p>
+    <p>- there are links to add savings, expenditure, income, view history</p>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Index.PNG">
 
-History page shows all itemized previous transactions in descending order by date.
-![History](/screenshots/History.png?raw=true "History")
+<b>History page shows all itemized previous transactions in descending order by date.</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/History.PNG">
 
-History for new user is blank
-![History new user](/screenshots/History_new_user.png?raw=true "History new user")
+<b>History for new user is blank</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/History_new_user.PNG">
 
-When the user tries to add expenditure higher than the remaining balance, an error message is displayed
-![Expenditure over balance](/screenshots/Expenditure_over_balance.png?raw=true "Expenditure_over_balance")
+<b>When the user tries to add expenditure higher than the remaining balance, an error message is displayed</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Expenditure_over_balance.PNG">
 
-When the user tries to add savings higher than the remaining balance, an error message is displayed
-![Savings over balance](https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Savings_over_balance.png)
+<b>When the user tries to add savings higher than the remaining balance, an error message is displayed</b>
+<img src="https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Savings_over_balance.PNG">
 
-Contributing
+<b>Contributing</b>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
