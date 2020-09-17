@@ -53,7 +53,7 @@ When the user tries to add expenditure higher than the remaining balance, an err
 ![Expenditure over balance](/screenshots/Expenditure_over_balance.png?raw=true "Expenditure_over_balance")
 
 When the user tries to add savings higher than the remaining balance, an error message is displayed
-![Savings over balance](/screenshots/Savings_over_balance.png?raw=true "Savings_over_balance")
+![Savings over balance](https://github.com/Denisa2020/MyMoneyGo/blob/master/screenshots/Savings_over_balance.png)
 
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
